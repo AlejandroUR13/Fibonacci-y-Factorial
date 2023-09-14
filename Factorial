@@ -1,0 +1,9 @@
+def factorial(num):
+    r=1
+    for i in range (1, num):
+    r = r*i
+    return r
+print('Porfavor ingrese un numero para llevar su factorial')
+num= input()
+num= int(num)
+print('El factorial de ',num, 'es:', factorial(n+1))
